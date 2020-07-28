@@ -1,0 +1,8 @@
+[Unit]
+Description=Change suspend image with the front page from the NYT
+
+[Service]
+ExecStart=/home/root/suspend_nyt.sh
+
+[Install]
+WantedBy=multi-user.target

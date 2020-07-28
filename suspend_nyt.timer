@@ -1,0 +1,10 @@
+[Unit]
+Description=Run suspend_nyt service
+
+[Timer]
+OnBootSec=2min
+# Run every 17 minutes
+OnCalendar=*:0/17
+
+[Install]
+WantedBy=timers.target
