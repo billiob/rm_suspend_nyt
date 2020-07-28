@@ -4,9 +4,11 @@ sleeping
 # How to install
 
 On Host:
+
     $ scp suspend_nyt.* rm:
 
 On reMarkable:
+
     # cp ~/suspend_nyt.{service,timer} /etc/systemd/system
     # systemctl daemon-reload
     # systemctl enable suspend_nyt.timer
